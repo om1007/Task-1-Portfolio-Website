@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+    <p class="port">My Portfolio</p>
+    <nav>
+        
+        <ul class="nav-links">
+            <li><a href="#about">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+       
+       <img class="ast" src="astr.png" alt="err"> ;
+        <h1 class="name">Hi, I'm Om Aundhkar </h1>
+        <h3><span class="auto-type"></span></h3><br><br>
+        <script>
+            var typed = new Typed(".auto-type",{
+                strings : ["Welcome to my Portfolio website"],
+                typeSpeed : 60,
+                backSpeed : 70,
+                looped : true
+    
+            })
+        </script>
+        <p class="exp">A showcase of my skills, projects, and achievements</p>
+    </header>
+
+    <section id="about">
+        <h2 class="topic">About Me</h2>
+        <div class="about-content">
+            <p class="exp">I am a passionate and creative web developer.
+                I'm constantly exploring new technologies and techniques
+                to enhance my skills and deliver outstanding results.
+                Let's create something amazing together! </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="topic">Skills</h2>
+        <p class="exp">My Skill set includes knowledge of Frontend languages and libraries like HTML, CSS, Javascript, Bootstrap, ReactJS . I'm also familair with coding languages like C++ , JavaScript, Python.</p>
+        <div></div>
+        <img src="htmll.png" alt="err">
+        <img src="jss.png" alt="err">
+        <img src="reac.png" alt="err">
+    </div>
+    </section>
+
+    <section id="projects">
+         <h2 class="topic">Some Projects</h2> 
+      
+            <div class="card" style="width: 18rem;">
+                <img src="text.png" class="img" alt="err">
+                <div class="card-body">
+                  <h5 class="card-title">Text Alterer</h5>
+                  <p class="card-text">This allows you to perform various operations on text , like convert to uppercase ,lowercase ,copy text and much more.</p>
+                 
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="tem.png" class="img" alt="err">
+                <div class="card-body">
+                  <h5 class="card-title">Temperature Convertor</h5>
+                  <p class="card-text">This converts Farhenhiet temperature to Celcius and Celcius temperature to Farhenhiet .</p>
+                 
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="cal.png" class="img" alt="err">
+                <div class="card-body">
+                  <h5 class="card-title">Calculator</h5>
+                  <p class="card-text">Helps us solve simple and complex mathamatical equations .</p>
+                
+                </div>
+              </div>
+           
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="topic">Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Thank You !</p>
+    </footer>
+
+   
+</body>
+</html>

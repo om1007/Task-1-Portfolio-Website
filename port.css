@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+  
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  font-size: 24px;
+ 
+}
+
+
+
+body {
+  
+    margin: 0;
+    padding: 0;
+    background-color:  #333;
+    
+    color: #f2f2f2;
+    
+  }
+
+  .port{
+    font-size: 31px;
+    font-weight: bolder;
+    margin:16px 97px;
+    
+  }
+  
+  
+  nav {
+    background-color: #373636;
+    color: #fff;
+    padding: 20px;
+    
+  }
+  
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    
+    margin-right: 99px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 39px;
+    padding: 0px 3px;
+  }
+
+  .nav-links li a:hover{
+    background-color: rgb(183, 3, 183);
+    color:aliceblue;
+    border-radius: 9px;
+    width:11px;
+    font-size: 28px;
+ 
+  }
+
+  /* Auto Type */
+  .auto-type{
+    color: aliceblue;
+    font-size: 40px;
+  }
+
+  .name{
+     font-size: 60px;
+  }
+  
+  /* Header Section */
+  header {
+   
+    padding: 50px;
+    text-align: center;
+   
+   
+  }
+
+  .ast{
+    float: right;
+    opacity: 0.9;
+    box-shadow: rgb(167, 0, 167) 8px 8px 6px 6.3px;
+    border-radius: 50%;
+  }
+    
+  
+
+ 
+  
+  /* About Me Section */
+  #about {
+    padding: 50px;
+    text-align: center;
+    background-color: #373636;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+  
+    text-align: center;
+  }
+
+  
+  .skills-list {
+    list-style-type: none;
+    
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  
+
+  /* Projects Section */
+ 
+  .card{
+    display: inline-block;
+    border: 3px solid rgb(167, 0, 167);
+    border-radius: 25px;
+    padding: 11px 12px;
+    margin: 11px 30px;
+    
+
+}
+
+.card:hover{
+  border: 3px solid rgb(255, 93, 255);
+  box-shadow: 17px 13px 10px 0.3px rgb(167, 0, 167);
+}
+
+
+
+.img{
+  height: 312px;
+    width: 435px;
+}
+
+  .exp{
+    font-size:27px ;
+  }
+
+ #projects{
+  text-align: center;
+  font-size: 21px;
+  background-color: #373636;
+  height:323px;
+ }
+
+ .topic{
+  font-size: 40px;
+  margin:0px 0px; 
+  padding: 0px 0px;
+ }
+
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin:0px 0px; 
+  padding: 393px 0px;
+    
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11px;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 44px;
+    background: none;
+    border: 2px solid  rgb(255, 93, 255);
+    color: aliceblue;
+    text-align: center;
+  }
+
+
+  
+
+  
+  #contact-form button {
+    background-color:purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 27px ;
+    border:2px solid rgb(183, 3, 183);
+    background: none;
+  }
+
+   #contact-form button:hover{
+    background-color: rgb(255, 93, 255); 
+     
+  } 
+   
+  /* Footer */
+  footer {
+    background-color: #373636;
+    color: #fff;
+    padding: 93px;
+    margin: -208px 0px;
+    text-align: center;
+  }
+
+  
+  @media only screen and (max-width:1578px){
+    #contact{
+      padding: 968px 0px;
+       
+    }
+  }
+      
+     
+     
+
+  @media only screen and (max-width:1050px){
+    #contact{
+      padding:1515px 0px;
+     
+     
+    }
+  }
+    
+  @media only screen and (max-width:864px){
+    .port{
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width:726px) and (max-width:923px){
+    .name,.exp{
+      display: inline-block;
+    }
+
+  
+  }
+
+  @media only screen and (max-width:698px){
+    body{
+      width:fit-content;
+    }
+
+    .name{
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (max-width:1184px){
+      .exp{
+        display: inline;
+      }
+  }
